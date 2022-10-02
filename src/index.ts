@@ -53,7 +53,7 @@ if (userInput === 'sub' || userInput === 'pizza' || userInput === 'soup') {
     seconds = (seconds - minutes) * 60
     console.log(
       `That will take ${minutes} minute(s)` +
-      ` and ${seconds} seconds in the microwave.`
+        ` and ${seconds} seconds in the microwave.`
     )
 
     // Catches invalid number inputs
